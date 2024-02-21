@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Guía</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="/fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="inner">
+        <form action="" class="form" id="guideForm">
+            <div class="form-content">
+                <div class="form-header">
+                    <h3>Crear guia</h3>
+                </div>
+                <div id="guideCounterDisplay" class="mt-3 text-right">Contador de Guías: <span id="guideCounter"></span></div>
+                <div class="">
+                    <h4>Origen</h4>
+                    <div class="form-holder row pt-3">
+                        <div class="col-md-6">
+                            <label for="originName">Nombre:</label>
+                            <input type="text" class="form-control" id="originName" name="originName" value="pablo" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originCompany">Empresa:</label>
+                            <input type="text" class="form-control" id="originCompany" name="originCompany" value="pablo" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originEmail">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="originEmail" name="originEmail" value="pablo.leyvam@gmail.com" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originPhone">Teléfono:</label>
+                            <input type="tel" class="form-control" id="originPhone" name="originPhone" value="3314620116" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originStreet">Calle:</label>
+                            <input type="text" class="form-control" id="originStreet" name="originStreet" value="calle 1" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="originNumber">Número:</label>
+                            <input type="text" class="form-control" id="originNumber" name="originNumber" value="102" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="originPostalCode">Código Postal:</label>
+                            <input type="text" class="form-control" id="originPostalCode" name="originPostalCode" value="45130" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originDistrict">Distrito:</label>
+                            <input type="text" class="form-control" id="originDistrict" name="originDistrict" value="Zapopan" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originCity">Ciudad:</label>
+                            <input type="text" class="form-control" id="originCity" name="originCity" value="Zapopan" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originState">Estado:</label>
+                            <input type="text" class="form-control" id="originState" name="originState" value="NL" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="originCountry">País:</label>
+                            <input type="text" class="form-control" id="originCountry" name="originCountry" value="MX" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="originReference">Referencia:</label>
+                            <input type="text" class="form-control" id="originReference" name="originReference">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="">
+                    <h4>Destino</h4>
+                    <div class="form-holder row pt-3">
+                        <div class="col-md-6">
+                            <label for="destinationName">Nombre:</label>
+                            <input type="text" class="form-control" id="destinationName" name="destinationName" value="Antonio" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationCompany">Empresa:</label>
+                            <input type="text" class="form-control" id="destinationCompany" name="destinationCompany" value="Antonio" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationEmail">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="destinationEmail" name="destinationEmail" value="pablo@gmail.com" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationPhone">Teléfono:</label>
+                            <input type="tel" class="form-control" id="destinationPhone" name="destinationPhone" value="3314621601" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationStreet">Calle:</label>
+                            <input type="text" class="form-control" id="destinationStreet" name="destinationStreet" value="calle 2" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="destinationNumber">Número:</label>
+                            <input type="text" class="form-control" id="destinationNumber" name="destinationNumber" value="190" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="destinationPostalCode">Código Postal:</label>
+                            <input type="text" class="form-control" id="destinationPostalCode" name="destinationPostalCode" value="45135" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationDistrict">Distrito:</label>
+                            <input type="text" class="form-control" id="destinationDistrict" name="destinationDistrict" value="Guadalajara" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationCity">Ciudad:</label>
+                            <input type="text" class="form-control" id="destinationCity" name="destinationCity" value="Guadalajara" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationState">Estado:</label>
+                            <input type="text" class="form-control" id="destinationState" name="destinationState" value="NL" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destinationCountry">País:</label>
+                            <input type="text" class="form-control" id="destinationCountry" name="destinationCountry" value="MX" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="destinationReference">Referencia:</label>
+                            <input type="text" class="form-control" id="destinationReference" name="destinationReference">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="d-flex pb-2">
+                        <div class="col-10 pl-0">
+                            <h4>Paquetes</h4>
+                        </div>
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <button type="button" class="btn btn-success rounded-circle btn-add" id="addPackage">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div id="containerPackage">
+                        <div class="form-holder row">
+                            <div class="col-12">
+                                <h5>Paquete 1</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="packageContent">Contenido:</label>
+                                <input type="text" class="form-control" id="packageContent" name="packageContent" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="packageAmount">Cantidad:</label>
+                                <input type="text" class="form-control" id="packageAmount" name="packageAmount" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <button type="submit">Crear</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    const containerPackage = $('#containerPackage');
+    const addPackageButton = $('#addPackage');
+    const guideCounterSpan = document.getElementById('guideCounter');
+    let packageIndex = 1;
+    function deletePackage(packageIndex) {
+      $(`#package${packageIndex}`).remove();
+    }
+
+    addPackageButton.on('click', () => {
+      const newPackage = $(`
+          <div class="form-holder row pt-2 package" id="package${packageIndex}">
+            <div class="col-12">
+                <h5>Paquete ${packageIndex + 1}</h5>
+             </div>
+            <div class="col-5">
+              <label for="packageContent${packageIndex}">Contenido:</label>
+              <input type="text" class="form-control" id="packageContent${packageIndex}" name="packageContent${packageIndex}" required>
+            </div>
+            <div class="col-5">
+              <label for="packageAmount${packageIndex}">Cantidad:</label>
+              <input type="number" class="form-control" id="packageAmount${packageIndex}" name="packageAmount${packageIndex}" required>
+            </div>
+            <div class="col-2 pt-2 d-flex justify-content-center align-items-end">
+                <button type="button" class="btn btn-danger delete-package-btn" >Eliminar</button>
+            </div>
+          </div>
+        `);
+      containerPackage.append(newPackage);
+
+      newPackage.find('.delete-package-btn').on('click', () => {
+        deletePackage(packageIndex);
+        packageIndex--;
+      });
+    });
+  });
+
+</script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+  const guideForm = document.getElementById('guideForm');
+  const guideCounterSpan = document.getElementById('guideCounter');
+
+  socket.on('guideCounter', (count) => {
+    guideCounterSpan.textContent = count;
+  });
+
+  guideForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const formData = new FormData(guideForm);
+
+    const guideData = {
+      origin: {
+        name: formData.get('originName'),
+        company: formData.get('originCompany'),
+        email: formData.get('originEmail'),
+        phone: formData.get('originPhone'),
+        street: formData.get('originStreet'),
+        number: formData.get('originNumber'),
+        district: formData.get('originDistrict'),
+        city: formData.get('originCity'),
+        state: formData.get('originState'),
+        country: formData.get('originCountry'),
+        postalCode: formData.get('originPostalCode'),
+        reference: formData.get('originReference')
+      },
+      destination: {
+        name: formData.get('destinationName'),
+        company: formData.get('destinationCompany'),
+        email: formData.get('destinationEmail'),
+        phone: formData.get('destinationPhone'),
+        street: formData.get('destinationStreet'),
+        number: formData.get('destinationNumber'),
+        district: formData.get('destinationDistrict'),
+        city: formData.get('destinationCity'),
+        state: formData.get('destinationState'),
+        country: formData.get('destinationCountry'),
+        postalCode: formData.get('destinationPostalCode'),
+        reference: formData.get('destinationReference')
+      },
+      packages: [
+        {
+          content: formData.get('packageContent'),
+          amount: Number(formData.get('packageAmount'))
+        }
+      ]
+    };
+
+    const packageContainers = document.querySelectorAll('.package');
+    packageContainers.forEach((container, index) => {
+      console.log('entro')
+      const packageContent = container.querySelector(`#packageContent${index + 1}`).value;
+      const packageAmount = container.querySelector(`#packageAmount${index + 1}`).value;
+      console.log(packageContent, packageAmount)
+      guideData.packages.push({ content: packageContent, amount: packageAmount });
+    });
+
+    socket.emit('createGuide', guideData);
+
+    guideForm.reset();
+  });
+</script>
+</body>
+</html>

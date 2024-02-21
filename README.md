@@ -6,27 +6,13 @@ This is a test to create envia.com guides with sockets
 
 ## Authors
 
-- [@octokatherine](https://github.com/Pablouxlo7)
+- [@Pablouxlo7](https://github.com/Pablouxlo7)
 
 
 ## Features
 
 - Create shipping label
 
-
-## Deployment
-
-To install the dependencies
-
-```bash
-  npm install
-```
-
-To run the sistem 
-
-```bash
-  node index.js
-```
 
 ## Environment Variables
 
@@ -35,4 +21,36 @@ To run this project, you will need to add the following environment variables to
 `TOKEN`
 
 `BASE_URL`
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Pablouxlo7/socket-guide
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  node index.js
+```
+
+Open the browser
+
+http://localhost:3000/
+
 

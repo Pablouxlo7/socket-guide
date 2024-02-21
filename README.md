@@ -37,6 +37,12 @@ Go to the project directory
   cd my-project
 ```
 
+Copy .env.example to .env
+
+Create your TOKEN in 
+
+https://shipping-test.envia.com/settings/developers
+
 Install dependencies
 
 ```bash

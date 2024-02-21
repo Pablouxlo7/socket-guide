@@ -60,12 +60,13 @@ class WebSocketServer {
 
     console.log(this.enviaClient)
     let response = await this.enviaClient.createGuide(formData)
-    response = true
+
+    //Tuve varios problemas con la API pero para poder hacer pruebas con exito hacia un response igual a true para subir el contador
+    //response = true
+
     if (response) {
-      setTimeout(()=> {
-        this.guideCounter++;
-        this.io.emit('guideCounter', this.guideCounter)
-      }, 10000)
+      this.guideCounter++;
+      this.io.emit('guideCounter', this.guideCounter)
     }
   }
 }
